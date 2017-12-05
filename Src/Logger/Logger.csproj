@@ -7,4 +7,8 @@
 	<RootNamespace>Dudes.Logger</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="NUnit.Runners" Version="3.7.0" />
+  </ItemGroup>
+
 </Project>
