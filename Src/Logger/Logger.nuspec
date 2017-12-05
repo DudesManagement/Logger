@@ -7,7 +7,7 @@
 	<projectUrl>https://github.com/DudesManagement/dudes.Main</projectUrl>
     <description>Choose and resolve handlers on the runtime and deployment time</description>
 	<dependencies>
-	<!--    <dependency id="PackageA" version="1.1.0" /> 	-->
+	  <dependency id="NUnit.Runners" version="3.7.0" />
 	<!-- 	<dependency id="PackageB" version="[1,2)" /> 	-->
 </dependencies>
     </metadata>
