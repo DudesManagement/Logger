@@ -7,4 +7,7 @@
 	<RootNamespace>Dudes.Logger</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="bin\Release\netcoreapp2.0\Dudes.Logger.pdb" Pack="true" PackagePath="lib\netcoreapp2.0\Dudes.Logger.pdb" />
+  </ItemGroup>
 </Project>
