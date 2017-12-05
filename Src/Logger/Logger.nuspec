@@ -12,7 +12,7 @@
 </dependencies>
     </metadata>
   <files>
-    <file src="bin\Release\Dudes.Logger.dll" target="lib\netcore" />
-    <file src="bin\Release\Dudes.Logger.pdb" target="lib\netcore" />
+    <file src="bin\Release\netcoreapp2.0\Dudes.Logger.dll" target="lib\netcore" />
+    <file src="bin\Release\netcoreapp2.0\Dudes.Logger.pdb" target="lib\netcore" />
   </files>
 </package>
