@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+    <id>Dudes.Logger</id>
+      <version>1.0.0</version>
+    <authors>Dudes"dudes.management@gmail.com</authors>
+	<projectUrl>https://github.com/DudesManagement/dudes.Main</projectUrl>
+    <description>Choose and resolve handlers on the runtime and deployment time</description>
+	<dependencies>
+	<!--    <dependency id="PackageA" version="1.1.0" /> 	-->
+	<!-- 	<dependency id="PackageB" version="[1,2)" /> 	-->
+</dependencies>
+    </metadata>
+</package>
