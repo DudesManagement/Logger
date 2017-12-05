@@ -11,4 +11,8 @@
 	<!-- 	<dependency id="PackageB" version="[1,2)" /> 	-->
 </dependencies>
     </metadata>
+  <files>
+    <file src="bin\$configuration$\$id$.dll" target="lib\netcore" />
+    <file src="bin\$configuration$\$id$.pdb" target="lib\netcore" />
+  </files>
 </package>
