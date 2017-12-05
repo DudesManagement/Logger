@@ -6,13 +6,10 @@
     <authors>Dudes"dudes.management@gmail.com</authors>
 	<projectUrl>https://github.com/DudesManagement/dudes.Main</projectUrl>
     <description>Choose and resolve handlers on the runtime and deployment time</description>
-	<dependencies targetFramework="netcoreapp2.0">
+	<dependencies>
 	<!--    <dependency id="PackageA" version="1.1.0" /> 	-->
 	<!-- 	<dependency id="PackageB" version="[1,2)" /> 	-->
 </dependencies>
-      <frameworkAssemblies>
-        <frameworkAssembly assemblyName="Dudes.Logger" targetFramework="netcoreapp2.0" />
-      </frameworkAssemblies>
     </metadata>
   <files>
     <file src="bin\Release\netcoreapp2.0\Dudes.Logger.dll" target="lib\netcoreapp2.0" />
