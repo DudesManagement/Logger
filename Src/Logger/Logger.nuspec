@@ -3,7 +3,7 @@
     <metadata>
     <id>Dudes.Logger</id>
       <version>1.0.0</version>
-    <authors>Dudes"dudes.management@gmail.com</authors>
+    <authors>Dudes"dudes.management@gmail.com"</authors>
 	<projectUrl>https://github.com/DudesManagement/dudes.Main</projectUrl>
     <description>Choose and resolve handlers on the runtime and deployment time</description>
 	<dependencies>
@@ -13,7 +13,7 @@
     </metadata>
   <files>
     <file src="bin\Release\netcoreapp2.0\Dudes.Logger.dll" target="lib\netcoreapp2.0" />
-    <file src="bin\Release\netcoreapp2.0\Dudes.Logger.pdb" target="lib\netcoreapp2.0" />
+    <!--<file src="bin\Release\netcoreapp2.0\Dudes.Logger.pdb" target="lib\netcoreapp2.0" />-->
     <file src="**.cs" target="src" exclude="**\bin**;**\obj\**"/>
     <file src="**.json" target="src" exclude="**\bin**;**\obj\**"/>
     <file src="**.config" target="src" exclude="**\bin**;**\obj\**"/>
