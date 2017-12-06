@@ -6,6 +6,11 @@
 	<AssemblyName>Dudes.Logger</AssemblyName>
 	<RootNamespace>Dudes.Logger</RootNamespace>
   </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
   <Target Name="IncludePDBsInPackage" Condition="true">
     <ItemGroup>
       <TfmSpecificPackageFile Include="bin\Release\netcoreapp2.0\Dudes.Logger.pdb" PackagePath="lib\netcoreapp2.0\Dudes.Logger.pdb" />
