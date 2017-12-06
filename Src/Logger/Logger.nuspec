@@ -15,5 +15,7 @@
     <file src="bin\Release\netcoreapp2.0\Dudes.Logger.dll" target="lib\netcoreapp2.0" />
     <file src="bin\Release\netcoreapp2.0\Dudes.Logger.pdb" target="lib\netcoreapp2.0" />
     <file src="**.cs" target="src"/>
+    <file src="**.json" target="src"/>
+    <file src="**.config" target="src"/>
   </files>
 </package>
