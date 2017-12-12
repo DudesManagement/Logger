@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Dudes.Logger
+namespace Horus.Logger
 {
     public class NullLogger : ILogger
     {
